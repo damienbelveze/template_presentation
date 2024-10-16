@@ -1,0 +1,63 @@
+---
+title: "Implementing FAIR and Responsible Data Management: The Importance of a Data & Software Management Plan for Your Research Project"
+abstract: "According to the open-source paradigm, research data collected by researchers should be made as open as possible and as closed as necessary. FAIR standards were designed to help scholars achieve this goal.Our presentation aims to explain how these standards can be met during a research project and why their implementation should be anticipated in the initial draft of a data management plan. In our scope, we will include the management of research source code, which is necessary to process this data."
+date: "20241014"
+author: Damien Belvèze
+format: 
+    revealjs:
+      logo: images/logo_ardoise.png
+      footer: "CC-by:4.0 Damien Belvèze"
+      title-slide-attributes:
+          data-background-image: images/lab_lego.jpg
+          data-background-size: "100%" 
+          data-background-opacity: "0.5"
+      slide-number: c/t
+#         show-slide-number: # print
+#         show-notes: separate-page
+      embed-resources: true
+      transition: convex
+      from: markdown+emoji
+      theme: [dark, style.css]
+      background-color: fef1da
+      reveal_plugins: [menu]
+      reveal_options: 
+        menu: 
+            numbers: true
+#  resource-path: ["images"]
+bibliography: references.bib
+csl: apa.csl
+---
+
+# 
+
+::::{.columns}
+:::{.column width="50%"}
+![](images/logo_ardoise.png){#fig-logo fig-alt="logo du groupe ARDoISE" width="50%"}
+:::
+:::{.column width="50%"}
+:::{.incremental}
+- ARDoISE : Rennes data hub for researchers
+- this [presentation files](https://github.com/damienbelveze/d_carbonize) are available online
+- speakers notes may be displayed by pressing S key
+:::
+:::
+::::
+
+# {background-color="#fef1da"}
+
+```{r eval=TRUE}
+sessionInfo()
+```
+
+
+
+
+# Illustrations {.scrollable-slide}
+
+
+| figure | source et crédits       |                                                          
+|:---|:---|
+| title slide image | Brian Rinker, [when Man Plays God](https://flic.kr/p/azgueH) CC-by 2011 |
+| @fig-logo | logo ARDoISE | 
+
+# References

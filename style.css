@@ -1,0 +1,116 @@
+/*-- scss:defaults --*/
+.red { color: red; }
+
+.title {
+  font-size: 70px !important;
+}
+
+.slide {
+  background-color: #fef1da !important;
+}
+
+.blockquote {
+    font-size: 32px;
+    margin-left: 100px;
+    font-style: italic;
+    color: #10ae9b;
+}
+
+.bottom {
+    position: absolute; 
+    bottom: 10px; 
+    width: 100%; 
+    text-align: center;
+}
+
+.v-center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  bottom: unset !important;
+  right: unset !important;
+  top: 5px;
+  left: 12px;
+  height: 100px !important;
+  width: 100x !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+/* Make specific slide scrollable */
+.scrollable-slide {
+  height: 100vh; /* Set the height to viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+/* CSS for the logo on the title slide */
+
+
+/*
+#title-slide-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; 
+}
+  
+  .title-slide .remark-slide-content {
+    background-image: url("images/logo_ardoise.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100px; 
+  }
+  
+  
+  #other-slides-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; 
+  }
+ 
+  .remark-slide-content:not(.title-slide) {
+    background-image: url("images/logo_ardoise_blanc.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100px; 
+  }
+  
+*/
+
+.reveal .footer {
+   color: #000 !important;
+}
+
+.opacity {
+    opacity: 0.33;
+}
+
+.title-font {
+    font-size: larger;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
